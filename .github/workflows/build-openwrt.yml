@@ -20,10 +20,8 @@ on:
         default: 'false'
 
 env:
-  #REPO_URL: https://github.com/sylvia69999/lede
-  #REPO_BRANCH: master
-  REPO_URL: https://github.com/goxofy/gl-mt300n-v2-openwrt
-  REPO_BRANCH: develop
+  REPO_URL: https://github.com/sylvia69999/lede
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
